@@ -1,0 +1,45 @@
+.capital {
+    height: 14em;
+    width: 12em;
+    padding: 1em 2em;
+}
+.capital p::first-letter {
+    font-size: 200%;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.text-justified {
+    text-align: justify;
+}
+.text-big {
+    font-size: large;
+}
+.overunderline {
+    text-decoration: underline overline;
+}
+.italicsbold {
+    font-style: italic;
+    font-weight: bold;
+}
+.versalitas {
+    font-variant: small-caps;
+}
+.text-green {
+    color: green;
+    text-decoration-color: green;
+}
+.text-brown {
+    color: brown;
+    text-decoration-color: brown;
+}
+.text-orange {
+    color: orange;
+    text-decoration-color: orange;
+}

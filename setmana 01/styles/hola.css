@@ -1,0 +1,13 @@
+p {
+    margin: 0;
+    font-size: larger;
+}
+p.hola {
+    font-style: italic;
+}
+p#verde {
+    color: olive;
+}
+.bold {
+    font-weight: bold;
+}

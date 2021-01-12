@@ -1,0 +1,45 @@
+body {
+    width: 800px;
+    margin: auto;
+}
+.bold {
+    font-weight: bold;
+}
+.contentbox {
+    margin: 2em 0em;
+}
+.header-image {
+    margin-bottom: 0%;
+}
+.header-image img {
+    display: block;
+}
+.textbodybox {
+    background: linear-gradient(#102842, #445060);
+    width: 800px;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.header-text h1 {
+    text-align: center;
+    line-height: 1em;
+    margin-top: 0%;
+}
+.text-box p {
+    width: 700px;
+    padding-left: 50px;
+    text-align: justify;
+}
+.text-mainbox p:last-child {
+    margin-bottom: 0%;
+}
+.footer-image {
+    margin-top: 0%;
+}
+.footer-image img {
+    display: block;
+}
+.InternalLink p {
+    text-align: center;
+}

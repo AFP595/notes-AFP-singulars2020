@@ -1,0 +1,38 @@
+.outline-fat{
+    border-style: solid;
+    border-width: 2em;
+}
+.outline-thin {
+    border-style: solid;
+    border-width: thin;
+}
+.outline-dotted {
+    border-style: dotted;
+    border-width: medium;
+}
+.round-edge {
+    border-radius: 1em;
+}
+.round-edge-leftright {
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.round-edge-rightleft {
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+.shadow-hard {
+    box-shadow: 1em 1em;
+}
+.shadow-soft {
+    box-shadow: 1em 1em 0.1em;
+}
+.shadow-softer {
+    box-shadow: 1em 1em 0.2em;
+}
+.shadow-softvery {
+    box-shadow: 1em 1em 0.4em;
+}
+.shadow-softest {
+    box-shadow: 1em 1em 0.8em;
+}

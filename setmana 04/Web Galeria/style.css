@@ -1,0 +1,167 @@
+@font-face {
+    font-family: Ubuntu Light;
+    src: url(./src/Ubuntu/Ubuntu-Light.ttf);
+}
+.bold {
+    font-weight: bold;
+}
+.italics {
+    font-style: italic;
+}
+body {
+    max-width: 90%;
+    margin: auto;
+    font-family: Ubuntu Light;
+    background-color: beige;
+}
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+.gallery {
+    border: solid 1px #ccc;
+    margin: 0 64px;
+}
+.gallery:hover {
+    border: solid 1px #777;
+}
+.gallery a {
+    height: 100%;
+}
+a img {
+    height: 256px;
+}
+.description {
+    text-align: center;
+}
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.sidebar-left {
+    display: inline-block;
+    width: 200px;
+    margin-right: 2%;
+    margin-left: 4%;
+}
+.menu-element {
+    margin: 10% 5%;
+    padding: 5% 10%;
+    background-color: lightgrey;
+    border: solid 2px orange;
+    border-radius: 1em;
+}
+.contact-form, #contact, .about-me {
+    font-size: small;
+}
+.contact-form {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.rating-box {
+    margin-bottom: 1em;
+}
+.rating-box p {
+    margin-bottom: 0.2em;
+}
+.rating-buttons-list {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: small;
+}
+input[type=radio] {
+    transform: scale(0.8);
+    margin: 0;
+    padding: 0;
+}
+.rating-label {
+    margin-left: 1%;
+    margin-right: 5%;
+}
+#comment {
+    margin-bottom: 1em;
+}
+.main-container {
+    width: 100%;
+    display: inline-block;
+    margin: 0 3%;
+    padding: 0 2%;
+}
+#middle-box {
+    display: flex;
+    flex-wrap: nowrap;
+}
+#middle-text-box {
+    width: 70%;
+    display: inline-block;
+    margin: 0;
+    padding: 0 2%;
+}
+#middle-box img {
+    width: 40%;
+    height: auto;
+    float: right;
+    margin-left: 2%;
+}
+#link-box-group {
+    width: 20%;
+    display: inline-block;
+    padding: 0;
+}
+.link-box {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link-box h3 {
+    line-height: 1;
+    margin: 1em 0 0 0;
+}
+ul li {
+    line-height: 2;
+}
+.sidebar-right {
+    display: inline-block;
+    width: 400px;
+    margin-left: 2%;
+}
+footer, .footer-box, .copyright {
+    width: 100%;
+    height: auto;
+}
+footer {
+    margin-top: 2em;
+}
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.footer-content {
+    width: 30%;
+    display: inline-block;
+    font-size: small;
+}
+#footer-text {
+    margin-right: 2%;
+}
+#footer-rss {
+    margin: 0 3%;
+    text-align: center;
+    font-size: 96px;
+    color: orange;
+}
+#footer-links {
+    margin-left: 2%;
+}
+.copyright {
+    text-align: center;
+}

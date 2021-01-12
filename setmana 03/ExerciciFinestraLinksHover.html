@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .window{
+            font-size: 0;   /* per fer desaparèixer l'espai entre elements amb inline-block */
+            width: 400px;
+            height: 300px;
+            border: black 1px solid;
+            margin: 100px auto;
+        }
+        .red{
+            background-color: red;
+            width: 50px;
+            height: 300px;
+        }
+        .green{
+            background-color: green;
+            width: 50px;
+            height: 300px;
+        }
+        .yellow{
+            background-color: yellow;
+            width: 300px;
+            height: 50px;
+        }
+        .blue{
+            background-color: blue;
+            width: 300px;
+            height: 200px;
+        }
+        .purple{
+            background-color: purple;
+            width: 300px;
+            height: 50px;
+        }
+        .center{
+            width: 300px;
+            height: 300px;
+        }
+        .ib{
+            display: inline-block;
+        }
+        a:hover div.red {
+            background-color: lightcoral;
+        }
+        a:hover div.yellow {
+            background-color: lightyellow;
+        }
+        a:hover div.blue {
+            background-color: lightblue;
+        }
+        a:hover div.purple {
+            background-color: plum;
+        }
+        a:hover div.green {
+            background-color: lightgreen;
+        }
+    </style>
+    <title>Finestra HoverLinks</title>
+</head>
+<body>
+    <div class="window">
+        <a href=""><div class="red ib"></div></a>
+        <div class="center ib">
+            <a href=""><div class="yellow"></div></a>
+            <a href=""><div class="blue"></div></a>
+            <a href=""><div class="purple"></div></a>
+        </div>
+        <a href=""><div class="green ib"></div></a>
+    </div>
+</body>
+</html>

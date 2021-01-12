@@ -1,0 +1,52 @@
+@font-face { /* Fuente importada en local */
+    font-family: SansPosterBold;
+    src: url(./res/SansPosterBold.ttf);
+}
+@font-face { /* Fuente importada en local */
+    font-family: TypoGraphica;
+    src: url(./res/TypoGraphica.otf);
+}
+@font-face { /* Fuente importada en local */
+    font-family: AardvarkBold;
+    src: url(./res/AARDV.TTF);
+}
+body {
+    margin: auto;
+    max-width: 1024px;
+}
+.bold {
+    font-weight: bold;
+}
+/* h1, h2, h3 {
+    text-align: center;
+} */
+h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+h2 {
+    border-bottom: 3px solid gray;
+}
+h1 {
+    font-size: 3em;
+}
+span.date {
+    background-color: lightgray;
+}
+span.bold {
+    font-weight: bold;
+    color: gray;
+}
+span.highlight {
+    font-size: 1.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div.news {
+    margin-top: 2em;
+    text-align: center;
+}
+div.news h2.news-title {
+    font-family: AardvarkBold;
+}
+div.news p {
+    text-align: justify;
+}

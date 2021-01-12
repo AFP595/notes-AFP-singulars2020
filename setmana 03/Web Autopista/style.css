@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(./src/Roboto/Roboto-Thin.ttf);
+}
+body {
+    background-image: url(./img/header.jpg);
+    background-size: 100% auto;
+    background-position: center 20%;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Roboto-Thin;
+}
+.inline-block {
+    display: inline-block;
+}
+nav, footer {
+    width: 100%;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: sticky;
+    top: 0;
+}
+.buttonlist {
+    display: inline-block;
+    margin: 0;
+}
+.navbutton a {
+    margin: 0;
+    padding: 1em 2em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.navbutton:not(:last-of-type) {
+    border-right: solid 2px white;
+}
+main {
+    width: 100%;
+    margin-top: 25em;
+    background-color: white;
+}
+.main-header {
+    width: 80%;
+    margin: auto;
+    padding-top: 1em;
+    text-align: center;
+    border-bottom: solid 2px black;
+    margin-bottom: 2em;
+}
+section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section01 {
+    text-align: center;
+    margin-bottom: 5em;
+}
+#section01 .content-box {
+    width: 30%;
+}
+#col1,#col2,#col3 {
+    display: grid;
+}
+#col1 .content-title, #col2 .content-title, #col3 .content-title {
+    grid-column: 1 3;
+    grid-row: 1 1;
+}
+#col1 .content-text, #col2 .content-text, #col3 .content-text {
+    grid-column: 1 3;
+    grid-row: 2 2;
+    padding-bottom: 2em;
+}
+#col1 .readmore-button, #col2 .readmore-button, #col3 .readmore-button {
+    grid-column: 1 3;
+    grid-row: 3 3;
+}
+.readmore-button a {
+    padding: 1em 2em;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+#section02 {
+    padding-bottom: 4em;
+}
+#section02 .content-box {
+    width: 40%;
+    margin: 1em 1vw;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.transparent-text {
+    background: none;
+    color: white;
+    margin: 5em auto;
+    text-align: center;
+}
+.transparent-text p {
+    padding: 0 15%;
+    font-size: larger;
+}
+footer {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    margin: 0;
+}
+footer * {
+    padding: 0.5em 0;
+}
+h2 a {
+    color: white;
+    text-decoration: none;
+}
+footer .footer-text {
+    padding: 0 10%;
+}

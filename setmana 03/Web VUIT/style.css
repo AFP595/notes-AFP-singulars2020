@@ -1,0 +1,72 @@
+body {
+    max-width: 965px;
+    margin: auto;
+    background-image: url(./img/bg.gif);
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.webcontainer {
+    margin: 2em auto;
+    background-color: white;
+    border-radius: 1em;
+}
+.inlineblock {
+    display: inline-block;
+}
+.headerbar header {
+    float: left;
+}
+.headerbar nav {
+    float: right;
+    margin-top: 1em;
+}
+.navbutton {
+    margin-right: 8px;
+}
+.navbutton a {
+    background-color: white;
+    padding: 1em 1em;
+    color: black;
+    text-decoration: none;
+}
+.navbutton a:hover {
+    background-color: darkred;
+    padding: 1em 1em;
+    color: white;
+    text-decoration: none;
+}
+.sectionheader {
+    text-align: center;
+}
+.sectionblock {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.sectionblock section {
+    max-width: 265px;
+}
+.subheader {
+    max-width: 265px;
+}
+.subheader h3 {
+    color: darkred;
+}
+.textblock {
+    max-width: 265px;
+    font-size: small;
+    text-align: justify;
+}
+footer {
+    height: 4em;
+}
+footer div {
+    float: left;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: small;
+}
+footer nav {
+    float: right;
+}

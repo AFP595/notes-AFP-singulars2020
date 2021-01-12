@@ -1,0 +1,32 @@
+.container {
+    height: 12em;
+    width: 14em;
+    margin: 1% 0.5%;
+    padding: 2em 1em;
+    display: inline-block;
+    font-size: small;
+}
+.background-gray {
+    background-color: gray;
+}
+.background-whiteish {
+    background-color: lightgray;
+}
+.background-black {
+    background-color: black;
+    color: white;
+}
+.background-blacktransparent {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.background-blacktransparenter {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+.background-gradientblackpoint {
+    background: radial-gradient(circle, darkslategray, white);
+}
+.background-gradientbicolor {
+    background: linear-gradient(#D60270, #9B4F96, #0038A8);
+}
